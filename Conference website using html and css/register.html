@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take control</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./index.html">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+    <!-- Navbar  Section Start -->
+<header>
+    <a href="#" class="logo">Take <span>CONTROL</span>.</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">Event</a></li> 
+        <li><a href="./skills.html">Venue</a></li>
+        <li><a href="./speaker.html">Speakers</a></li>
+        <li><a href="./register.html">Register</a></li>
+    </ul>
+</header>
+<!-- Navbar Section End -->
+
+<!-- Contact Section Start -->
+<section class="contact" id="register">
+    <div class="heading">
+        <h2>Register</h2>
+        <span>Fill all the boxes !</span>
+    </div>
+    <div class="contact-form">
+        <form id="form">
+            <input type="text" placeholder="Your First Name" id="fname">
+            <input type="text" placeholder="Your Last Name" id="lname">
+            <input type="email" placeholder="Your Business Email" id="email">
+            <input type="text" placeholder="Current Status in Profession" id="status">
+            <input type="text" placeholder="Your Phone Number" id="number" >
+            <input type="text" placeholder="Company Name" id="cname">
+            <input type="text" placeholder="Country" id="country">
+            <textarea id="msg" cols="10" rows="10" placeholder="Write Message Here..."></textarea>    
+            <input  type="submit" value="Register" class="contact-button" id="button" onclick="message()">
+<!--successfull submission-->
+<div class="hidden" id="success-submission">
+    <div>
+    <span class="success"> Registration Successfull !</span>
+</div>
+</div>
+ <!--failed submission-->
+ <div class="hidden" id="fail-submission" >
+    <div>
+    <span class="failure" > Registration Failed !</span>
+</div>
+</div>
+            </form>
+        </div>
+        
+            
+                            
+</section>
+ <!-- Contact Section End -->
+  <div class="footer">
+     <h2>Follow Us</h2>
+     <div class="footer-social">
+         <a href="https://github.com/Guna-Pandi?tab=repositories"><i class='bx bxl-facebook'></i></a>
+         <a href="https://github.com/Guna-Pandi?tab=repositories"><i class='bx bxl-twitter'></i></a>
+         <a href="https://github.com/Guna-Pandi?tab=repositories"><i class='bx bxl-instagram'></i></a>
+         <a href="https://github.com/Guna-Pandi?tab=repositories"><i class='bx bxl-youtube'></i></a>
+     </div>
+ </div>
+ <div class="copyright">
+     © PortFolio | All Right Reserved.</p>
+ </div>
+ 
+ <script src="function.js"></script>
+</body>
+</html>
